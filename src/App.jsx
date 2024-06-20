@@ -19,12 +19,12 @@ function App() {
         </div>
       </div>
 
-      <div className=" bg-neutral-800 flex justify-center items-center px-6 py-10">
+      <div className=" bg-neutral-800 flex justify-center items-center px-6 py-16">
         <div className="xl:max-w-[1280px] w-full">
           <About />
         </div>
       </div>
-      <div className=" bg-neutral-800 flex justify-center items-center px-6 py-10">
+      <div className=" bg-neutral-800 flex justify-center items-center px-6 pt-10 pb-20">
         <div className="xl:max-w-[1280px] w-full">
           <Experience />
         </div>

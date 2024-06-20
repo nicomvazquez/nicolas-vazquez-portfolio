@@ -1,62 +1,30 @@
 import React from "react";
 
-import nodejs from "../assets/nodejs.svg";
-import react from "../assets/react.svg";
-import express from "../assets/express.svg";
-import mysql from "../assets/mysql.svg";
-import mongodb from "../assets/mongodb.svg";
-import tailwind from "../assets/tailwind.svg";
-import python from "../assets/python.svg";
-
 function About() {
   return (
     <section className="text-center flex flex-col items-center">
-      <h2 className="text-6xl font-semibold">About<span className="text-yellow-500">.</span></h2>
-      <p className="text-xl my-10">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-        quaerat.
-      </p>
+      <h2 className="text-6xl font-semibold">
+        About<span className="text-yellow-500">.</span>
+      </h2>
 
-
-      <h1 className="text-4xl font-semibold my-3">Stack<span className="text-yellow-500">.</span></h1>
-      <div className="flex gap-5 ">
-        <img
-          src={nodejs}
-          alt=""
-          className="w-14 hover:scale-110 transition-all"
-        />
-        <img
-          src={react}
-          alt=""
-          className="w-14 hover:scale-110 transition-all"
-        />
-        <img
-          src={express}
-          alt=""
-          className="w-14 hover:scale-110 transition-all"
-        />
-        <img
-          src={tailwind}
-          alt=""
-          className="w-14 hover:scale-110 transition-all"
-        />
-        <img
-          src={mysql}
-          alt=""
-          className="w-14 hover:scale-110 transition-all"
-        />
-        <img
-          src={mongodb}
-          alt=""
-          className="w-14 hover:scale-110 transition-all"
-        />
-        <img
-          src={python}
-          alt=""
-          className="w-14 hover:scale-110 transition-all"
-        />
+      <div className=" max-w-6xl mt-10 rounded-2xl">
+        <p className="text-2xl">
+          Soy <span className="text-yellow-500">Nicolás Vázquez</span>, Técnico
+          en Informática y Desarrollador de Software Full-Stack. Como{" "}
+          <span className="text-yellow-500">tecnico</span>, he trabajado en el
+          desarrollo y mantenimiento de aplicaciones web robustas y escalables.
+        </p>
+        <p className="text-2xl mt-7">
+          Mi experiencia incluye el manejo de tecnologías{" "}
+          <span className="text-yellow-500">front-end y back-end</span>, lo que
+          me permite abordar proyectos de manera integral, desde la concepción
+          hasta la implementación y el mantenimiento. Estoy familiarizado con{" "}
+          <span className="text-yellow-500">
+            frameworks y librerías modernos
+          </span>
+          , lo que me permite crear soluciones eficientes y de alta calidad.
+        </p>
       </div>
-
     </section>
   );
 }
