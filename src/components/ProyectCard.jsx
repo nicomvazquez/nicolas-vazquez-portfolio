@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 function ProyectCard({ props }) {
   return (
@@ -13,19 +14,21 @@ function ProyectCard({ props }) {
         </h2>
         <p className="text-xl my-3">{props.description}</p>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex gap-5 items-center mt-7">
           <a
             href={props.url}
             className="text-xl bg-yellow-500 py-1 px-3 rounded-lg hover:scale-110 hover:bg-yellow-600 transition-all"
           >
             vista
           </a>
-          <a
-            href={props.url}
-            className="text-xl bg-yellow-500 py-1 px-3 rounded-lg hover:scale-110 hover:bg-yellow-600 transition-all"
-          >
-            vista
-          </a>
+          {props.code && (
+            <a
+              href={props.code}
+              className=" text-3xl hover:scale-110 hover:text-yellow-500 transition-all"
+            >
+              <FaGithub />
+            </a>
+          )}
         </div>
       </div>
     </div>

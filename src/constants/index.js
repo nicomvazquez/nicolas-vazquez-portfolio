@@ -8,13 +8,14 @@ export const navlinks = [
     path: "about",
   },
   {
+    name: "Experiencia",
+    path: "experiencia",
+  },
+  {
     name: "Porfolio",
     path: "portfolio",
   },
-  {
-    name: "Contacto",
-    path: "contact",
-  },
+  
 ];
 
 export const proyects = [

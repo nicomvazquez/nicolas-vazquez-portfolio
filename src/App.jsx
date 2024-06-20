@@ -7,13 +7,13 @@ import { Home, About, Experience, Portfolio } from "./pages";
 function App() {
   return (
     <main className="bg-neutral-800 text-white w-full overflow-hidden">
-      <div className="flex justify-center items-center px-6">
+      <div className="flex justify-center bg-neutral-800 items-center px-6 fixed w-full shadow-xl z-10">
         <div className="xl:max-w-[1280px] w-full">
           <Navbar />
         </div>
       </div>
 
-      <div className=" bg-neutral-700 flex justify-center items-center px-6">
+      <div className=" bg-neutral-700 flex justify-center items-center px-6 py-20">
         <div className="xl:max-w-[1280px] w-full">
           <Home />
         </div>
@@ -30,7 +30,7 @@ function App() {
         </div>
       </div>
 
-      <div className=" bg-neutral-700 flex justify-center items-center px-6 py-10">
+      <div className=" bg-neutral-700 flex justify-center items-center px-6 py-20">
         <div className="xl:max-w-[1280px] w-full">
           <Portfolio />
         </div>
@@ -39,7 +39,6 @@ function App() {
       <div className=" bg-neutral-800 flex justify-center items-center px-6 py-10">
         <div className="xl:max-w-[1280px] w-full">
           <Foother />
-          <h1 className="text-neutral-400">&copy; 2024 - nicomvazquez.com</h1>
         </div>
       </div>
     </main>

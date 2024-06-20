@@ -2,9 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <section className="text-center flex flex-col items-center">
+    <section id="about" className="text-center flex flex-col items-center">
       <h2 className="text-6xl font-semibold">
-        About<span className="text-yellow-500">.</span>
+        Sobre mi<span className="text-yellow-500">.</span>
       </h2>
 
       <div className=" max-w-6xl mt-10 rounded-2xl">
