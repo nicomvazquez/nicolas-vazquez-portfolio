@@ -9,20 +9,15 @@ function About() {
 
       <div className=" max-w-6xl mt-10 rounded-2xl">
         <p className="text-2xl">
-          Soy <span className="text-yellow-500">Nicolás Vázquez</span>, Técnico
-          en Informática y Desarrollador de Software Full-Stack. Como{" "}
-          <span className="text-yellow-500">tecnico</span>, he trabajado en el
-          desarrollo y mantenimiento de aplicaciones web robustas y escalables.
-        </p>
-        <p className="text-2xl mt-7">
-          Mi experiencia incluye el manejo de tecnologías{" "}
-          <span className="text-yellow-500">front-end y back-end</span>, lo que
-          me permite abordar proyectos de manera integral, desde la concepción
-          hasta la implementación y el mantenimiento. Estoy familiarizado con{" "}
-          <span className="text-yellow-500">
-            frameworks y librerías modernos
-          </span>
-          , lo que me permite crear soluciones eficientes y de alta calidad.
+          Soy <span className="text-yellow-500">Nicolás Vázquez</span>, técnico
+          en informática y desarrollador de software{" "}
+          <span className="text-yellow-500">full-stack</span>. Comence con la
+          programacion en la escuela, donde desarrollé pequeños sistemas en{" "} 
+          <span className="text-yellow-500">Python.</span> Esta experiencia me
+          llevó a especializarme en el desarrollo de software full-stack.
+          Actualmente, estoy estudiando{" "}
+          <span className="text-yellow-500">inteligencia artificial</span> y
+          explorando cómo implementarla en mis proyectos.
         </p>
       </div>
     </section>

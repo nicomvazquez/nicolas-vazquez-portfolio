@@ -11,7 +11,7 @@ import python from "../assets/python.svg";
 function Experience() {
   return (
     <section id="experiencia" className="flex flex-col items-center">
-      <h2 className="text-6xl font-semibold mb-10">
+      <h2 className="text-4xl font-semibold mb-10">
         Experiencia laboral<span className="text-yellow-500">.</span>
       </h2>
       <div className="max-w-2xl text-left">

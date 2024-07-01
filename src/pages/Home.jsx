@@ -13,19 +13,22 @@ function Home() {
         <p className="text-2xl text-yellow-500 my-3">Full-Stack Developer.</p>
         <div className="flex gap-7 text-4xl mt-7">
           <a
+            target="_blank"
             href="https://www.linkedin.com/in/nicolas-vazquez-2b6812284/"
             className="hover:scale-110 hover:text-yellow-500 transition-all"
           >
             <FaLinkedin />
           </a>
           <a
+            target="_blank"
             href="https://github.com/nicomvazquez"
             className="hover:scale-110 hover:text-yellow-500 transition-all"
           >
             <FaGithub />
           </a>
           <a
-            download={""}
+            href="./cv-nicolas-vazquez.pdf"
+            download="cv-nicolas-vazquez.pdf"
             className="text-xl bg-yellow-500 py-1 px-3 rounded-lg hover:scale-110 hover:bg-yellow-600 transition-all"
           >
             Descargar CV.
