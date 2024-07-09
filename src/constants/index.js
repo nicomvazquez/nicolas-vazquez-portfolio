@@ -25,7 +25,13 @@ export const proyects = [
     code: "https://github.com/nicomvazquez/nicomvazquez-website",
     image: "./freelance-developer.png",
   },
-
+  {
+    title: "Traker de gastos",
+    description: "Aplicacion para administrar finanzas personales",
+    url: "https://nicomvazquez.github.io/react-traker/",
+    code: "https://github.com/nicomvazquez/react-traker",
+    image: "./traker.png",
+  },
   {
     title: "E-comemrce iphone",
     description:
